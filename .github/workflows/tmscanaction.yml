@@ -1,5 +1,5 @@
 - name: Vision One Container Security Scan Action
-  uses: trendmicro/tmas-scan-action@version*
+  uses: trendmicro/tmas-scan-action@versionv2.27.0
    with:
       # Mandatory
       TMAS_API_KEY: ${{ secrets.TMAS_API_KEY }}
