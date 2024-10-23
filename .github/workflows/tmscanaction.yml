@@ -3,7 +3,7 @@
    with:
       # Mandatory
       TMAS_API_KEY: ${{ secrets.TMAS_API_KEY }}
-      REGION: us-east-1
+      REGION: ap-southeast-2
       VULNERABILITY_SCAN: true
       # Optional
       SBOM: true # Saves SBOM to SBOM.json so you can export it as an artifact later.
